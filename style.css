@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #ffdd75;
+  background-color: black;
   font-family: "Creepster", cursive;
 }
 
@@ -25,25 +26,25 @@ img {
 .container {
   display: flex;
   align-items: center;
-  width: 1390px;
+  width: 1375px;
   margin-top: 90px;
 }
 
 .slider {
   display: flex;
   overflow: hidden;
-  border: 3px solid #696969;
-  margin: 0 4px;
+  /* border: 3px solid #696969; */
+  margin: 0 6px;
   border-radius: 5px;
 }
 
 #slideLeft,
 #slideRight {
   font-size: 50px;
-  border: 3px solid #696969;
+  /* border: 3px solid #696969; */
   color: #696969;
   width: 50px;
-  height: 300px;
+  height: 250px;
   padding: 10px;
   display: flex;
   justify-content: center;
